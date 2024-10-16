@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@RestController
+
 public class CarRental {
 
     List<Car> cars = new ArrayList<Car>();
